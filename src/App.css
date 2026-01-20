@@ -70,55 +70,76 @@
 /* *=========== Green theme =========== */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 142.1 76.2% 36.3%;
-    --primary-foreground: 355.7 100% 97.3%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 142.1 76.2% 36.3%;
-    --radius: 0.5rem;
-  }
+    --background: 210 30% 98%;
+    --foreground: 222 22% 16%;
 
-  .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 0 0% 95%;
-    --card: 24 9.8% 10%;
-    --card-foreground: 0 0% 95%;
-    --popover: 0 0% 9%;
-    --popover-foreground: 0 0% 95%;
-    --primary: 142.1 70.6% 45.3%;
-    --primary-foreground: 144.9 80.4% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 15%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 85.7% 97.3%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 142.4 71.8% 29.2%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 22% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 22% 16%;
+
+    /* Premium brand green (clean + expensive) */
+    --primary: 160 84% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Soft elevated surfaces */
+    --secondary: 220 22% 96%;
+    --secondary-foreground: 222 22% 18%;
+
+    --muted: 220 22% 95%;
+    --muted-foreground: 222 12% 46%;
+
+    --accent: 220 22% 94%;
+    --accent-foreground: 222 22% 18%;
+
+    --destructive: 0 72% 54%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders / inputs */
+    --border: 220 18% 90%;
+    --input: 220 18% 90%;
+    --ring: 160 84% 36%;
   }
 }
+
+.dark {
+  --background: 222 30% 6%;
+  --foreground: 0 0% 96%;
+
+  --card: 222 28% 10%;
+  --card-foreground: 0 0% 96%;
+
+  --popover: 222 28% 9%;
+  --popover-foreground: 0 0% 96%;
+
+  /* Brand pops nicely on dark */
+  --primary: 160 84% 44%;
+  --primary-foreground: 160 90% 12%;
+
+  --secondary: 222 22% 16%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 222 22% 14%;
+  --muted-foreground: 222 12% 64%;
+
+  --accent: 222 22% 18%;
+  --accent-foreground: 0 0% 98%;
+
+  --destructive: 0 64% 42%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 222 22% 20%;
+  --input: 222 22% 20%;
+  --ring: 160 84% 44%;
+}
+
 
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }

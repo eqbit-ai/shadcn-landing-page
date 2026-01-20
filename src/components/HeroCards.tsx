@@ -33,7 +33,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>This web page is awesome!</CardContent>
       </Card>
 
       {/* Team */}
@@ -46,7 +46,7 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Leo Miranda</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            Media Developer
           </CardDescription>
         </CardHeader>
 
@@ -61,7 +61,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="#"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -73,7 +73,7 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://twitter.com/leo_mirand4"
+              href="#"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -94,7 +94,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/leopoldo-miranda/"
+              href="#"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -126,7 +126,7 @@ export const HeroCards = () => {
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            Ideal for individuals getting started with our services.
           </CardDescription>
         </CardHeader>
 
@@ -162,8 +162,7 @@ export const HeroCards = () => {
           <div>
             <CardTitle>Light & dark mode</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              Chose light or dark mode, or let your system decides for you.
             </CardDescription>
           </div>
         </CardHeader>
